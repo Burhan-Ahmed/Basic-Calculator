@@ -1,0 +1,45 @@
+body{
+	font-family: 'Times New Roman';
+	background-image: linear-gradient(to right ,rgb(32, 5, 58) ,rgb(135, 62, -400));
+	
+}
+.header
+{
+    color: white;
+    text-align: center;
+}
+.result{
+    width: 140px;
+    height: 38px;
+    margin: 7px;
+}
+.number{
+    cursor: pointer;
+    border-radius: 49px;
+    background: rgba(166, 127, 236, 0.4);
+    font-size: 36px;
+
+}
+@keyframes gg {
+    0%{background-color: rgb(190, 158, 158);}
+    25%{background-color: rgb(252, 250, 178);}
+    50%{background-color: rgb(230, 139, 230);}
+    75%{background-color: rgb(255, 103, 103);}
+    100%{background-color: rgb(255, 135, 135);}
+}
+#calculator
+{
+    background: rgba(100,100,100,0.5);
+    padding: 26px;
+    margin: auto;
+    border-color: black;
+    border-width: thick;
+    border-radius: 10px;
+    border-style: groove;
+    text-align: center;
+    width: 160px;
+    animation-name:gg;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
